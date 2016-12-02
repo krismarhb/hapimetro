@@ -1,9 +1,25 @@
 // repositorio para hapimetro
 
-<html>
-<title>
-<head></head> 
-<body>
+<html> 
+<title> Happy </title>
+<head> <h4>Hapimetro</h4> 
 
 
-</body>
+<h1> How you feel today? </h1><alling center>
+
+</head>
+	<body>
+   <from method="post" action="happy.php">
+    
+    <input  name="happy" type="submit" value="Happy">
+
+    <input  name="unhappy" type="submit" value="UnHappy">
+
+     
+    <input  name="stats" type="submit" value="Estadisticas">
+
+
+
+    </form>
+	</body>
+</html>
