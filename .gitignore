@@ -1,4 +1,27 @@
 // repositorio para hapimetro
+<?php
+
+$happy=$_POST['happy'];
+$unhappy=$_POST['unhappy'];
+$estadistica=$_POST['stats'];
+
+  
+   if(isset($happy)){
+   $happy=$happy+1;
+    echo ("eres feliz"); 
+   }
+
+
+     if(isset($unhappy)){
+   $unhappy=$unhappy+1;
+    echo ("eres infeliz"); 
+   }
+
+if(isset($estadistica)){
+   echo("HAPPY = '$happy' <br> UNHAPPY ='$unhappy'");
+}
+
+?>
 
 <html> 
 <title> Happy </title>
